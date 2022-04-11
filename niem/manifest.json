@@ -1,5 +1,13 @@
 {
- "name": "App",
+ name: "Media Digital Center",
+ short_name: "Media Digital Center",
+ display: "standalone",
+ prefer_related_applications: false,
+ start_url: ".",
+ scope: "\/",
+ background_color: "#fff",
+ theme_color: "#0b57cf",
+ description: "MediaDigitalCenter - Adalah pusat informasi terkait internet, toturial, info pengetahuan, pendidikan dan artikel lainnya dalam bahasa indonesia.",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
