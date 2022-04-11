@@ -3,7 +3,7 @@
  "short_name": "Media Digital Center",
  "display": "standalone",
  "prefer_related_applications": false,
- "start_url": "https://www.mediadigitalcenter.my.id",
+ "start_url": "/",
  "background_color": "#fff",
  "theme_color": "#0b57cf",
  "description": "MediaDigitalCenter - Adalah pusat informasi terkait internet, toturial, info pengetahuan, pendidikan dan artikel lainnya dalam bahasa indonesia.",
