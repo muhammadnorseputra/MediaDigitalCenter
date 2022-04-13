@@ -1,7 +1,8 @@
 {
  "name": "Media Digital Center",
- "short_name": "Media Digital Center",
+ "short_name": "MDCenter",
  "display": "standalone",
+ "id":"https://www.mediadigitalcenter.my.id",
  "prefer_related_applications": false,
  "start_url": "https://www.mediadigitalcenter.my.id",
  "background_color": "#fff",
