@@ -1,61 +1,146 @@
 {
- "name": "Media Digital Center",
- "short_name": "MDCenter",
- "display": "standalone",
- "id":"https://www.mediadigitalcenter.my.id",
- "prefer_related_applications": false,
- "start_url": "https://www.mediadigitalcenter.my.id",
- "background_color": "#fff",
- "theme_color": "#0b57cf",
- "description": "MediaDigitalCenter - Adalah pusat informasi terkait internet, toturial, info pengetahuan, pendidikan dan artikel lainnya dalam bahasa indonesia.",
- "icons": [
-  {
-   "src": "https://raw.githubusercontent.com/muhammadnorseputra/MediaDigitalCenter/master/niem/android-icon-36x36.png",
-   "sizes": "36x36",
-   "type": "image\/png",
-   "purpose": "any maskable",
-   "density": "0.75"
-  },
-  {
-   "src": "https://raw.githubusercontent.com/muhammadnorseputra/MediaDigitalCenter/master/niem/android-icon-48x48.png",
-   "sizes": "48x48",
-   "type": "image\/png",
-   "purpose": "any maskable",
-   "density": "1.0"
-  },
-  {
-   "src": "https://raw.githubusercontent.com/muhammadnorseputra/MediaDigitalCenter/master/niem/android-icon-72x72.png",
-   "sizes": "72x72",
-   "type": "image\/png",
-   "purpose": "any maskable",
-   "density": "1.5"
-  },
-  {
-   "src": "https://raw.githubusercontent.com/muhammadnorseputra/MediaDigitalCenter/master/niem/android-icon-96x96.png",
-   "sizes": "96x96",
-   "type": "image\/png",
-   "purpose": "any maskable",
-   "density": "2.0"
-  },
-  {
-   "src": "https://raw.githubusercontent.com/muhammadnorseputra/MediaDigitalCenter/master/niem/android-icon-144x144.png",
-   "sizes": "144x144",
-   "type": "image\/png",
-   "purpose": "any maskable",
-   "density": "3.0"
-  },
-  {
-   "src": "https://raw.githubusercontent.com/muhammadnorseputra/MediaDigitalCenter/master/niem/android-icon-192x192.png",
-   "sizes": "192x192",
-   "type": "image\/png",
-   "purpose": "any maskable",
-   "density": "4.0"
-  },
-  {
-  "src": "https://raw.githubusercontent.com/muhammadnorseputra/MediaDigitalCenter/master/niem/MediaDigitalCenterSplash.png",
-  "sizes": "512x512",
-  "type": "image/png",
-  "purpose": "any maskable"
+  "name": "Media Balangan",
+  "short_name": "Media Balangan",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "display": "standalone",
+  "prefer_related_applications": false,
+  "start_url": "/?utm_source=homescreen",
+  "scope": "/",
+  "id": "https://www.mediabalangan.com",
+  "background_color": "#fff",
+  "theme_color": "#0b57cf",
+  "orientation": "portrait-primary",
+  "lang": "id-ID",
+  "description": "Instal Media Balangan Faster - Lebih cepat, mudah dan modern.",
+  "icons": [
+    {
+      "src": "https://www.mediabalangan.com/master/niem/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "density": "1.0"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/MediaDigitalCenterSplash.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "density": "4.0"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Media Balangan",
+      "short_name": "Media Balangan",
+      "description": "Adalah pusat informasi terkait internet, toturial, info pengetahuan, pendidikan dan artikel lainnya.",
+      "url": "/?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "https://www.mediabalangan.com/master/niem/android-icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "density": "4.0"
+        }
+      ]
+    },
+    {
+      "name": "Blog - Media Balangan",
+      "short_name": "Blog - Media Balangan",
+      "description": "Try search in this blog.",
+      "url": "/search?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "https://www.mediabalangan.com/master/niem/android-icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "density": "4.0"
+        }
+      ]
+    },
+    {
+      "name": "Label Blogger - Media Balangan",
+      "short_name": "Label Blogger - Media Balangan",
+      "description": "Banyak pilihan kategori yang tersedia",
+      "url": "/search/label/Blogger?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "https://www.mediabalangan.com/master/niem/android-icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "density": "4.0"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://www.mediabalangan.com/master/niem/capture-1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "platform": "wide",
+      "label": "Halaman utama blogger"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/capture-2.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "platform": "wide",
+      "label": "Tentang Kami"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/capture-3.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "platform": "wide",
+      "label": "Ikuti juga kami di Google News"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/capture-4.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "platform": "wide",
+      "label": "Tersedia berbagai pilihan kategori"
+    },
+    {
+      "src": "https://www.mediabalangan.com/master/niem/capture-5.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "platform": "wide",
+      "label": "Super cepat, aksese lebih mudah dan nyaman"
+    }
+  ],
+  "serviceworker": {
+    "src": "https://www.mediabalangan.com/serviceworker.js"
   }
- ]
 }
